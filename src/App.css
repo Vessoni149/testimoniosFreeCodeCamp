@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-size: 18px;
+    background-color: #f5f6f7;
+}
+
+h1{
+    max-width: 940px;
+    font-size: 2.5em;       /*em es relativo al tamaño de la letra del contenedor, en este caso será 2.5 ese valor*/
+    font-family: Lato, sans-serif;
+    font-weight: 700;      /*grosor de letra*/
+    line-height: 1.1;    /*espacios entre renglones*/
+    margin: 40px 0;
+}
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-principal{
+    min-height: 600px;      /*uso min-h para poner la altura minima, no un heigth definido ya que necesito que se estire al añadir testimonios*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
